@@ -38,12 +38,6 @@ under the License.
             <groupId>org.apache.flink</groupId>
             <artifactId>statefun-e2e-tests-common</artifactId>
             <version>${project.version}</version>
-            <exclusions>
-                <exclusion>
-                    <groupId>com.fasterxml.jackson.core</groupId>
-                    <artifactId>jackson-annotations</artifactId>
-                </exclusion>
-            </exclusions>
         </dependency>
 
         <!-- Junit -->
