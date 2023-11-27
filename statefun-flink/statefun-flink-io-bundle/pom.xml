@@ -90,7 +90,13 @@ under the License.
         <dependency>
             <groupId>org.apache.flink</groupId>
             <artifactId>flink-connector-kinesis</artifactId>
-            <version>${flink.version}</version>
+            <version>4.1.0-1.17</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.apache.flink</groupId>
+                    <artifactId>flink-connector-base</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
 
         <!-- 3rd party -->
